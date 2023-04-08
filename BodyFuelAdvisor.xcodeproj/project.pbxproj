@@ -11,11 +11,16 @@
 		19DFC0C929E05D8800EECECC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DFC0C829E05D8800EECECC /* ContentView.swift */; };
 		19DFC0CB29E05D8900EECECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19DFC0CA29E05D8900EECECC /* Assets.xcassets */; };
 		19DFC0CE29E05D8900EECECC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19DFC0CD29E05D8900EECECC /* Preview Assets.xcassets */; };
-		19DFC0D029E05D8900EECECC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DFC0CF29E05D8900EECECC /* Persistence.swift */; };
 		19DFC0D329E05D8900EECECC /* BodyFuelAdvisor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19DFC0D129E05D8900EECECC /* BodyFuelAdvisor.xcdatamodeld */; };
 		19DFC0DD29E05D8900EECECC /* BodyFuelAdvisorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DFC0DC29E05D8900EECECC /* BodyFuelAdvisorTests.swift */; };
 		19DFC0E729E05D8900EECECC /* BodyFuelAdvisorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DFC0E629E05D8900EECECC /* BodyFuelAdvisorUITests.swift */; };
 		19DFC0E929E05D8900EECECC /* BodyFuelAdvisorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DFC0E829E05D8900EECECC /* BodyFuelAdvisorUITestsLaunchTests.swift */; };
+		19DFC0F929E1AE9300EECECC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 19DFC0F829E1AE9300EECECC /* .gitignore */; };
+		19DFC0FA29E1AE9300EECECC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 19DFC0F829E1AE9300EECECC /* .gitignore */; };
+		19DFC0FB29E1AE9300EECECC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 19DFC0F829E1AE9300EECECC /* .gitignore */; };
+		19DFC0FD29E1B0EC00EECECC /* ChatGPTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DFC0FC29E1B0EC00EECECC /* ChatGPTAPI.swift */; };
+		19DFC0FE29E1B0EC00EECECC /* ChatGPTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DFC0FC29E1B0EC00EECECC /* ChatGPTAPI.swift */; };
+		19DFC0FF29E1B0EC00EECECC /* ChatGPTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DFC0FC29E1B0EC00EECECC /* ChatGPTAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,13 +46,15 @@
 		19DFC0C829E05D8800EECECC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		19DFC0CA29E05D8900EECECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19DFC0CD29E05D8900EECECC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		19DFC0CF29E05D8900EECECC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		19DFC0D229E05D8900EECECC /* BodyFuelAdvisor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BodyFuelAdvisor.xcdatamodel; sourceTree = "<group>"; };
 		19DFC0D829E05D8900EECECC /* BodyFuelAdvisorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BodyFuelAdvisorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19DFC0DC29E05D8900EECECC /* BodyFuelAdvisorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyFuelAdvisorTests.swift; sourceTree = "<group>"; };
 		19DFC0E229E05D8900EECECC /* BodyFuelAdvisorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BodyFuelAdvisorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19DFC0E629E05D8900EECECC /* BodyFuelAdvisorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyFuelAdvisorUITests.swift; sourceTree = "<group>"; };
 		19DFC0E829E05D8900EECECC /* BodyFuelAdvisorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyFuelAdvisorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		19DFC0F729E1AB1800EECECC /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		19DFC0F829E1AE9300EECECC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		19DFC0FC29E1B0EC00EECECC /* ChatGPTAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +85,8 @@
 		19DFC0BA29E05D8800EECECC = {
 			isa = PBXGroup;
 			children = (
+				19DFC0F829E1AE9300EECECC /* .gitignore */,
+				19DFC0F729E1AB1800EECECC /* Secrets.xcconfig */,
 				19DFC0C529E05D8800EECECC /* BodyFuelAdvisor */,
 				19DFC0DB29E05D8900EECECC /* BodyFuelAdvisorTests */,
 				19DFC0E529E05D8900EECECC /* BodyFuelAdvisorUITests */,
@@ -101,9 +110,9 @@
 				19DFC0C629E05D8800EECECC /* BodyFuelAdvisorApp.swift */,
 				19DFC0C829E05D8800EECECC /* ContentView.swift */,
 				19DFC0CA29E05D8900EECECC /* Assets.xcassets */,
-				19DFC0CF29E05D8900EECECC /* Persistence.swift */,
 				19DFC0D129E05D8900EECECC /* BodyFuelAdvisor.xcdatamodeld */,
 				19DFC0CC29E05D8900EECECC /* Preview Content */,
+				19DFC0FC29E1B0EC00EECECC /* ChatGPTAPI.swift */,
 			);
 			path = BodyFuelAdvisor;
 			sourceTree = "<group>";
@@ -238,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19DFC0CE29E05D8900EECECC /* Preview Assets.xcassets in Resources */,
+				19DFC0F929E1AE9300EECECC /* .gitignore in Resources */,
 				19DFC0CB29E05D8900EECECC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19DFC0FA29E1AE9300EECECC /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19DFC0FB29E1AE9300EECECC /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19DFC0D029E05D8900EECECC /* Persistence.swift in Sources */,
 				19DFC0C929E05D8800EECECC /* ContentView.swift in Sources */,
 				19DFC0D329E05D8900EECECC /* BodyFuelAdvisor.xcdatamodeld in Sources */,
 				19DFC0C729E05D8800EECECC /* BodyFuelAdvisorApp.swift in Sources */,
+				19DFC0FD29E1B0EC00EECECC /* ChatGPTAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19DFC0FE29E1B0EC00EECECC /* ChatGPTAPI.swift in Sources */,
 				19DFC0DD29E05D8900EECECC /* BodyFuelAdvisorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19DFC0FF29E1B0EC00EECECC /* ChatGPTAPI.swift in Sources */,
 				19DFC0E729E05D8900EECECC /* BodyFuelAdvisorUITests.swift in Sources */,
 				19DFC0E929E05D8900EECECC /* BodyFuelAdvisorUITestsLaunchTests.swift in Sources */,
 			);
@@ -305,6 +319,7 @@
 /* Begin XCBuildConfiguration section */
 		19DFC0EA29E05D8900EECECC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19DFC0F729E1AB1800EECECC /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -365,6 +380,7 @@
 		};
 		19DFC0EB29E05D8900EECECC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19DFC0F729E1AB1800EECECC /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -419,6 +435,7 @@
 		};
 		19DFC0ED29E05D8900EECECC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19DFC0F729E1AB1800EECECC /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +465,7 @@
 		};
 		19DFC0EE29E05D8900EECECC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19DFC0F729E1AB1800EECECC /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

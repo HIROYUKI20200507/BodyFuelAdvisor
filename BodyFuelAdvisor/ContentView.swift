@@ -1,33 +1,42 @@
-//
-//  ContentView.swift
-//  BodyFuelAdvisor
-//
-//  Created by 秋本 裕之 on 2023/04/07.
-//
 import SwiftUI
+import Combine
 
 struct ContentView: View {
-    @State private var weight: String = ""
+    @State private var weightInput: String = ""
+    @State private var feedback: String = ""
+    private let chatGPTAPI = ChatGPTAPI()
     
     var body: some View {
         VStack {
-            Text("体重を入力してください")
-                .font(.title)
-                .padding(.bottom, 20)
-            
-            TextField("体重 (kg)", text: $weight)
-                .keyboardType(.decimalPad)
+            TextField("体重を入力してください", text: $weightInput)
                 .padding()
-                .background(Color(.systemGray6))
-                .cornerRadius(8)
-                .padding(.horizontal)
+                .keyboardType(.decimalPad)
+            
+            Button(action: getFeedback) {
+                Text("フィードバックを取得")
+            }
+            .padding()
+            
+            Text(feedback)
+                .padding()
         }
-        .padding(.top, 50)
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    func getFeedback() {
+        guard let weight = Double(weightInput) else {
+            self.feedback = "無効な入力です。体重を正しく入力してください。"
+            return
+        }
+        
+        chatGPTAPI.getFeedback(forWeight: weight) { result in
+            DispatchQueue.main.async {
+                switch result {
+                case .success(let feedback):
+                    self.feedback = feedback
+                case .failure(let error):
+                    self.feedback = "エラー: \(error.localizedDescription)"
+                }
+            }
+        }
     }
 }
