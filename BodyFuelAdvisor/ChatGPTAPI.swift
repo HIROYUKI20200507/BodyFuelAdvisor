@@ -8,7 +8,7 @@ enum ChatGPTAPIError: Error {
 
 class ChatGPTAPI {
     private let apiKey: String = ProcessInfo.processInfo.environment["API_KEY"] ?? ""
-    private let apiUrl = "https://api.openai.com/v1/engines/davinci-codex/completions"
+    private let apiUrl = "https://api.openai.com/v1/engines/davinci/completions"
 
     func getFeedback(forWeight weight: Double, completion: @escaping (Result<String, Error>) -> Void) {
         let prompt = "体重が\(weight)kgの人に対するフィードバックを提供してください。"
@@ -28,6 +28,8 @@ class ChatGPTAPI {
         let jsonData = try? JSONSerialization.data(withJSONObject: json)
         request.httpBody = jsonData
 
+        print(request)
+        
         URLSession.shared.dataTask(with: request) { data, response, error in
             if let error = error {
                 completion(.failure(error))
