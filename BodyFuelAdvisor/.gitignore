@@ -1,6 +1,1 @@
-## Xcode Patch
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-BodyFuelAdvisor.xcodeproj/xcshareddata/
-!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/*
