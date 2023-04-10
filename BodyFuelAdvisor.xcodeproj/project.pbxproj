@@ -51,7 +51,7 @@
 		19DFC0E629E05D8900EECECC /* BodyFuelAdvisorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyFuelAdvisorUITests.swift; sourceTree = "<group>"; };
 		19DFC0E829E05D8900EECECC /* BodyFuelAdvisorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyFuelAdvisorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		19DFC0FC29E1B0EC00EECECC /* ChatGPTAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAPI.swift; sourceTree = "<group>"; };
-		19DFC10429E4519500EECECC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		19DFC10429E4519500EECECC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = BodyFuelAdvisorUITests/.gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +82,7 @@
 		19DFC0BA29E05D8800EECECC = {
 			isa = PBXGroup;
 			children = (
+				19DFC10429E4519500EECECC /* .gitignore */,
 				19DFC0C529E05D8800EECECC /* BodyFuelAdvisor */,
 				19DFC0DB29E05D8900EECECC /* BodyFuelAdvisorTests */,
 				19DFC0E529E05D8900EECECC /* BodyFuelAdvisorUITests */,
@@ -108,7 +109,6 @@
 				19DFC0D129E05D8900EECECC /* BodyFuelAdvisor.xcdatamodeld */,
 				19DFC0CC29E05D8900EECECC /* Preview Content */,
 				19DFC0FC29E1B0EC00EECECC /* ChatGPTAPI.swift */,
-				19DFC10429E4519500EECECC /* .gitignore */,
 			);
 			path = BodyFuelAdvisor;
 			sourceTree = "<group>";
