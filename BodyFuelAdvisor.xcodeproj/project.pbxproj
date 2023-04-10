@@ -18,6 +18,7 @@
 		19DFC0FD29E1B0EC00EECECC /* ChatGPTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DFC0FC29E1B0EC00EECECC /* ChatGPTAPI.swift */; };
 		19DFC0FE29E1B0EC00EECECC /* ChatGPTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DFC0FC29E1B0EC00EECECC /* ChatGPTAPI.swift */; };
 		19DFC0FF29E1B0EC00EECECC /* ChatGPTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DFC0FC29E1B0EC00EECECC /* ChatGPTAPI.swift */; };
+		19DFC10529E4519500EECECC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 19DFC10429E4519500EECECC /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		19DFC0E629E05D8900EECECC /* BodyFuelAdvisorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyFuelAdvisorUITests.swift; sourceTree = "<group>"; };
 		19DFC0E829E05D8900EECECC /* BodyFuelAdvisorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyFuelAdvisorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		19DFC0FC29E1B0EC00EECECC /* ChatGPTAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAPI.swift; sourceTree = "<group>"; };
+		19DFC10429E4519500EECECC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				19DFC0D129E05D8900EECECC /* BodyFuelAdvisor.xcdatamodeld */,
 				19DFC0CC29E05D8900EECECC /* Preview Content */,
 				19DFC0FC29E1B0EC00EECECC /* ChatGPTAPI.swift */,
+				19DFC10429E4519500EECECC /* .gitignore */,
 			);
 			path = BodyFuelAdvisor;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19DFC0CE29E05D8900EECECC /* Preview Assets.xcassets in Resources */,
+				19DFC10529E4519500EECECC /* .gitignore in Resources */,
 				19DFC0CB29E05D8900EECECC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
